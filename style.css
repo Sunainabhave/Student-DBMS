@@ -1,0 +1,155 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+nav{
+    position: fixed;
+    background-color: rgb(18, 19, 19);
+    height: 75px;
+    width: 100%;
+    z-index: 1;
+}
+.logo{
+    font-size: 30px;
+    position: relative;
+    left: 5%;
+    color: aliceblue;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+ul{
+    position: relative;
+    float: right;
+}
+
+ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+}
+ul li a:hover{
+    color: aqua;
+    font-size: 20px ;
+}
+.main_img{
+    width: 100%;
+    height: 300px;
+}
+.section1{
+    padding-top: 70px;
+}
+.welcome_img{
+    width: 100%;
+    height: 250px;
+    
+}
+.container{
+    padding-top: 70px;
+    width: 200px;
+}
+.teacher{
+    width: 90%;
+    height: 200px;
+}
+.label_text{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.input_deg{
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid rgb(38, 43, 29);
+}
+
+.adm_int{
+    padding-top: 10px;
+}
+
+.input_txt{
+    width: 30%;
+    height: 120px;
+    border-radius: 20px;
+    border: 2px solid rgb(38, 43, 29);
+}
+
+#submit{
+    position: relative;
+    left: 5%;
+    width: 15%;
+}
+
+footer{
+    background-color: black;
+    height: 60px;
+    width: 100%;
+}
+
+.footer_text{
+    text-align: center;
+    color: aliceblue;
+    top: 20%;
+    position: relative;
+}
+
+.adm{
+    padding-top: 30px;
+}
+
+.features{
+    padding-top: 30px;
+}
+
+.form_deg{
+    padding-top: 100px;
+    
+
+}
+.label_deg{
+    display: inline-block;
+    color: aquamarine;
+    width: 100px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:x-large;
+}
+
+.login_form{
+    background-color: black;
+    width: 400px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.title_deg{
+    background-color:black ;
+    color: antiquewhite;
+    text-align: center;
+    font-weight: bolder;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.in{
+    width: 200px;
+    height: 20px;
+}
+
+.butt{
+    width: 50px;
+    height: 25px;
+    background-color: bisque;
+}
